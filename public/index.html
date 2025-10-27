@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 게임</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>2048</h1>
+            <div class="score-container">
+                <div class="score-box">
+                    <div class="score-label">점수</div>
+                    <div class="score" id="score">0</div>
+                </div>
+                <div class="score-box">
+                    <div class="score-label">최고점수</div>
+                    <div class="score" id="best-score">0</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="game-intro">
+            <p><strong>보드를 드래그</strong>하거나 <strong>방향키</strong>로 타일을 움직여 <strong>2048</strong>을 만드세요!</p>
+            <button class="restart-button" id="restart-btn">새 게임</button>
+        </div>
+
+        <div class="game-container">
+            <div class="grid-container">
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+                <div class="grid-row">
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                    <div class="grid-cell"></div>
+                </div>
+            </div>
+            <div class="tile-container" id="tile-container">
+            </div>
+        </div>
+
+        <div class="game-message" id="game-message">
+            <div class="message-content">
+                <div class="message-text" id="message-text"></div>
+                <button class="try-again-button" id="try-again-btn">다시 시도</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
