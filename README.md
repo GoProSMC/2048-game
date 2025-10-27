@@ -93,4 +93,4 @@ npm start
 
 ---
 
-Made by - [spear34000](https://github.com/spear34000)
+Made by [spear34000](https://github.com/spear34000)
