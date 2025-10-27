@@ -90,3 +90,7 @@ npm start
 ---
 
 2048 게임을 즐겨보세요! 🎉
+
+---
+
+Made by - [spear34000](https://github.com/spear34000)
